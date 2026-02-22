@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge The QR Code Generator(1)",
+  "Type": "Screen",
+  "Id": "4I-212TDmUe3b0KHXoeyiQ",
+  "Reference": "uXvmRieWnUKzLrxYz_3DhA/4I-212TDmUe3b0KHXoeyiQ",
+  "ParentRef": "uXvmRieWnUKzLrxYz_3DhA/MPsskZXkb0CzqNOwc-8h9w",
+  "Created": "2026-02-22T07:27:18.6089117Z",
+  "Updated": "2026-02-22T07:27:18.6089117Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

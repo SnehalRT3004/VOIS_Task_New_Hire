@@ -1,0 +1,170 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Generate_QR_Download_Save" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="argument1" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Generate_QR_Download_Save_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Generate_QR_Download_Save" sap:VirtualizedContainerService.HintSize="891.6,707.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge The QR Code Generator (TQRCG) Create Fre" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,684" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="bed8f38e-c7c4-4816-92d9-bb7239faaa33" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,490.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'msedge.exe The QR Code …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bed8f38e-c7c4-4816-92d9-bb7239faaa33" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="the-qrcode-generator.com" CVScreenId="fd8f46c7-f9e9-472c-bb99-f8f9f2d1c01d" ContentHash="0N2Cf9uL0Emm8y_CcyoDuA" CvTextArea="674, 469, 69, 15" CvTextArgument="Plain Text" CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="663, 418, 93, 84" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='widget_input_tab_header' idx='4' parentid='campaign-list' tag='DIV' /&gt;" Guid="ac700bd9-d2c7-4bf9-b3c9-2613b8128ce5" InformativeScreenshot="81a9dcfa21bb9692bff4e518bdeeea8e.jpg" Reference="uXvmRieWnUKzLrxYz_3DhA/Bw7GlKAU4kKxS-OUHntPQw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='The QR Code Generator (TQRCG): Create Free QR Codes' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="220, 386, 925, 128" Guid="c825f404-3152-4428-9536-8fb2b72e997a" ImageBase64="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" SearchSteps="Image" TargetType="ImageBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Add message'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,236.8" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="bed8f38e-c7c4-4816-92d9-bb7239faaa33" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="the-qrcode-generator.com" CVScreenId="a79f68d1-d559-4d28-b061-667675059406" ContentHash="7V64hRSP00qQYxDk1Y69nw" CvElementArea="265, 640, 860, 162" CvType="InputBox" DesignTimeRectangle="266, 645, 856, 157" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='input textarea' placeholder='Enter text here' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="75a4b702-8129-4207-900a-7c7089b5f47a" InformativeScreenshot="e62dc685b4648ce701c7edbfa064c6cd.jpg" IsResponsive="True" Reference="uXvmRieWnUKzLrxYz_3DhA/hxHhfv4Je0WnSojHpdOc3g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='The QR Code Generator (TQRCG): Create Free QR Codes' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="a79f68d1-d559-4d28-b061-667675059406" CvTextArea="264, 610, 112, 22" CvTextArgument="Add message" CvType="Text" DesignTimeRectangle="266, 608, 856, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Add message ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Add message' /&gt;" Guid="0a2fc216-e315-4ffb-b06f-552c1897c8a9" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1158" BrowserType="Edge" ContentHash="O4GBEefKk0WFZCAKWeAakQ" IconBase64="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" InformativeScreenshot="33bf90de862d840b0d9ee75e6f68eb7b.jpg" Reference="uXvmRieWnUKzLrxYz_3DhA/Xmp4eSbE3025GATnBEkxeA" Selector="&lt;html app='msedge.exe' title='The QR Code Generator (TQRCG): Create Free QR Codes' /&gt;" Url="https://www.the-qrcode-generator.com/" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

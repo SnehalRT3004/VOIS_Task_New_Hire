@@ -1,0 +1,13 @@
+﻿{
+  "Name": "1.0.0",
+  "Type": "AppVersion",
+  "Id": "DgLiECZIik2QCUx-eRoomQ",
+  "Reference": "uXvmRieWnUKzLrxYz_3DhA/DgLiECZIik2QCUx-eRoomQ",
+  "ParentRef": "uXvmRieWnUKzLrxYz_3DhA/kWNj-XIU-06s_qyPKhd5nw",
+  "Created": "2026-02-20T15:59:15.8603806Z",
+  "Updated": "2026-02-20T15:59:15.8603806Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
