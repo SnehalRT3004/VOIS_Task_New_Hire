@@ -120,10 +120,15 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
       <AssemblyReference>System.Data.Common</AssemblyReference>
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="830.8000000000001,2404.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="830.8000000000001,2403.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
+      <Variable x:TypeArguments="s:String[]" Name="arrRow" />
       <Variable x:TypeArguments="x:Boolean" Name="boolQRCodeFile" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
@@ -131,53 +136,70 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="InitAllSettings - Invoke Workflow File (Framework\InitAllSettings.xaml)" sap:VirtualizedContainerService.HintSize="486.4,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Framework\InitAllSettings.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_ProcessedEmpData">[io_dtProcessedData]</OutArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_ConfigFile">Data\Config.xlsx</InArgument>
-        <InArgument x:TypeArguments="s:String[]" x:Key="in_ConfigSheets">[New String() {"Settings", "Constants"}]</InArgument>
-        <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="out_Config">[in_Config]</OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Edge The QR Code Generator(1)(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486.4,56.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" OutUiElement="[in_QRCodeSite]" ScopeGuid="7602a1a5-3de5-4e9c-b473-a8f71309b1e7" Version="V2" WindowResize="Maximize">
-      <uix:NApplicationCard.Body>
-        <ActivityAction x:TypeArguments="x:Object">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486.4,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,284" sap2010:WorkflowViewState.IdRef="Sequence_15">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="InitAllSettings - Invoke Workflow File (Framework\InitAllSettings.xaml)" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Framework\InitAllSettings.xaml">
+            <ui:InvokeWorkflowFile.Arguments>
+              <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_ProcessedEmpData">[io_dtProcessedData]</OutArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="in_ConfigFile">Data\Config.xlsx</InArgument>
+              <InArgument x:TypeArguments="s:String[]" x:Key="in_ConfigSheets">[New String() {"Settings", "Constants"}]</InArgument>
+              <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="out_Config">[in_Config]</OutArgument>
+            </ui:InvokeWorkflowFile.Arguments>
+          </ui:InvokeWorkflowFile>
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Edge The QR Code Generator(1)(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" OutUiElement="[in_QRCodeSite]" ScopeGuid="7602a1a5-3de5-4e9c-b473-a8f71309b1e7" Version="V2" WindowResize="Maximize">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.OCREngine>
+              <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
+                <ActivityFunc.Argument>
+                  <DelegateInArgument x:TypeArguments="sd1:Image" Name="Image" />
+                </ActivityFunc.Argument>
+              </ActivityFunc>
+            </uix:NApplicationCard.OCREngine>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1158" BrowserType="Chrome" ContentHash="f3CgcYs-T0iYElVNRMPeuA" IconBase64="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" InformativeScreenshot="5fe1b8ca8cc1355b651b80f7b8bb9e7d.jpg" Reference="uXvmRieWnUKzLrxYz_3DhA/QQn8LFih80y9PPoayQ7_Qg" Selector="&lt;html app='chrome.exe' title='The QR Code Generator' /&gt;" Url="https://app.the-qrcode-generator.com/" Version="V2">
+                <uix:TargetApp.Arguments>
+                  <InArgument x:TypeArguments="x:String" />
+                </uix:TargetApp.Arguments>
+                <uix:TargetApp.WorkingDirectory>
+                  <InArgument x:TypeArguments="x:String" />
+                </uix:TargetApp.WorkingDirectory>
+              </uix:TargetApp>
+            </uix:NApplicationCard.TargetApp>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-          </Sequence>
-        </ActivityAction>
-      </uix:NApplicationCard.Body>
-      <uix:NApplicationCard.OCREngine>
-        <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
-          <ActivityFunc.Argument>
-            <DelegateInArgument x:TypeArguments="sd1:Image" Name="Image" />
-          </ActivityFunc.Argument>
-        </ActivityFunc>
-      </uix:NApplicationCard.OCREngine>
-      <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-9, -9, 1938, 1158" BrowserType="Chrome" ContentHash="f3CgcYs-T0iYElVNRMPeuA" IconBase64="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" InformativeScreenshot="5fe1b8ca8cc1355b651b80f7b8bb9e7d.jpg" Reference="uXvmRieWnUKzLrxYz_3DhA/QQn8LFih80y9PPoayQ7_Qg" Selector="&lt;html app='chrome.exe' title='The QR Code Generator' /&gt;" Url="https://app.the-qrcode-generator.com/" Version="V2">
-          <uix:TargetApp.Arguments>
-            <InArgument x:TypeArguments="x:String" />
-          </uix:TargetApp.Arguments>
-          <uix:TargetApp.WorkingDirectory>
-            <InArgument x:TypeArguments="x:String" />
-          </uix:TargetApp.WorkingDirectory>
-        </uix:TargetApp>
-      </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </ui:CommentOut.Body>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-    </uix:NApplicationCard>
+    </ui:CommentOut>
     <ui:FileExistsX DisplayName="File Exists" Exists="[boolQRCodeFile]" sap:VirtualizedContainerService.HintSize="486.4,56.8" sap2010:WorkflowViewState.IdRef="FileExistsX_1" Path="[&quot;C:\Users\&quot;+Environment.UserName+&quot;\Downloads\&quot;+&quot;Plain Text QR Code.png&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -220,13 +242,13 @@
         </Sequence>
       </If.Else>
     </If>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="QRCode Generation" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486.4,2035.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InUiElement="[in_QRCodeSite]" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="74880928-d00a-4480-beac-f4a49a6f02b7" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="QRCode Generation" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486.4,2209.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InUiElement="[in_QRCodeSite]" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="74880928-d00a-4480-beac-f4a49a6f02b7" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,1913.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,2088" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -476,9 +498,17 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
+            <Assign sap:VirtualizedContainerService.HintSize="451.2,174.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="s:String[]">[arrRow]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="s:String[]">[New String() {strEmpId, strEmpName, strEmpSalary, System.IO.Path.Combine(in_Config("QRCodesPath").ToString(), "Data\Output\QRCodes", strEmpId.Trim() + "_" + strEmpName.Trim() + ".png")}]</InArgument>
+              </Assign.Value>
+            </Assign>
             <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="451.2,572.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <TryCatch.Try>
-                <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{strEmpId,strEmpName,strEmpSalary,in_Config(&quot;QRCodesPath&quot;).ToString+&quot;\Data\Output\QRCodes\&quot;+strEmpId.Trim+&quot;_&quot;+strEmpName.Trim+&quot;.png&quot;}]" DataTable="[io_dtProcessedData]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="449.6,188" sap2010:WorkflowViewState.IdRef="AddDataRow_1">
+                <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[arrRow]" DataTable="[io_dtProcessedData]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="449.6,188" sap2010:WorkflowViewState.IdRef="AddDataRow_1">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
