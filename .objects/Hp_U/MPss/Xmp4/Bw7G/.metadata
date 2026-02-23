@@ -1,0 +1,13 @@
+﻿{
+  "Name": "msedge.exe The QR Code …",
+  "Type": "Element",
+  "Id": "Bw7GlKAU4kKxS-OUHntPQw",
+  "Reference": "uXvmRieWnUKzLrxYz_3DhA/Bw7GlKAU4kKxS-OUHntPQw",
+  "ParentRef": "uXvmRieWnUKzLrxYz_3DhA/Xmp4eSbE3025GATnBEkxeA",
+  "Created": "2026-02-21T10:37:53.1758346Z",
+  "Updated": "2026-02-21T10:37:53.1758346Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

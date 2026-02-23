@@ -1,0 +1,10 @@
+[
+  {
+    "Constant": false,
+    "Name": "iResFile",
+    "TypeFullyQualifiedName": "UiPath.Platform.ResourceHandling.IResource, UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
+  }
+]

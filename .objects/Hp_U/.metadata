@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge The QR Code Generator",
+  "Type": "App",
+  "Id": "Hp_U_66RWUOchAPV2EtCNA",
+  "Reference": "uXvmRieWnUKzLrxYz_3DhA/Hp_U_66RWUOchAPV2EtCNA",
+  "Created": "2026-02-20T15:38:17.9127795Z",
+  "Updated": "2026-02-20T15:38:17.9127795Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

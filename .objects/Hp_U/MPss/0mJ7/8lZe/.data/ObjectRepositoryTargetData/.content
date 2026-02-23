@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MNehOAsrfES44lObkALSEw" Reference="uXvmRieWnUKzLrxYz_3DhA/8lZeUv0JzESDYJl1cFCBEA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.the-qrcode-generator.com/qrcodes" CVScreenId="87831990-0b6c-464f-8e06-25f85fc532a1" CvElementArea="982, 729, 329, 53" CvTextArea="1116, 745, 91, 20" CvTextArgument="Download" CvType="Button" DesignTimeRectangle="985, 731, 325, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id=':rac:' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-uxdw84' aaname='Download' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Download' /&gt;" Guid="bafc305d-39b7-4a8d-b9fb-b6c983f2c2e2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The QR Code Generator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="87831990-0b6c-464f-8e06-25f85fc532a1" CvElementArea="982, 729, 329, 53" CvTextArea="1116, 745, 91, 20" CvTextArgument="Download" CvType="Button" DesignTimeRectangle="1118, 744, 89, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Download' parentid=':rac:' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Download' /&gt;" Guid="f070c7b3-ee7c-4504-a506-eb95ee938419" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="35f893cca885d2a7e8a281f59074c80d.jpg" xmlns="">0WIliTAaaZUyM0fQhyg3Zdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

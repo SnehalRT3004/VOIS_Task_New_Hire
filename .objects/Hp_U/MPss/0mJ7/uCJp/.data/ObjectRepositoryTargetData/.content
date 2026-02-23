@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iJjbGAuu_UOPF2nZ6Q4VnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.the-qrcode-generator.com/qrcodes" CVScreenId="7f24afc6-02ac-4a4f-8add-8cd3d9cd423f" CvElementArea="1156, 588, 29, 27" CvType="Icon" DesignTimeRectangle="1162, 592, 19, 19" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p&amp;gt;svg&amp;gt;path' tag='path' /&gt;" Guid="b6b9cbfb-648d-486b-9e61-40bcb0cedcc2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFvSURBVEhLY/hPQ8CALkBNMLgNf/Hx4f8lxzr+f/nxEV2KMsPvv776v3Cpy//0+Rb/69eF///w7TWKPNmG//j97X/+EmewwTBcscoP7BMYIMvwrz8/g+nLj4/+z1pog2JB344cuDqSDX/y7vb/wqWu/w9cXwPmX3x06H/mAiu44ZvPz4GrJcnwp+/vgg2GGbTn6gqwOMyCeYca///7/w+unmjDH7+9hWIwDG88NxMsf+flxf///v1F0UOU4RCDIakCG7706Ai6FjAgaDh6UKDjZce70LXAAV7DCRm88EgLuhYUgNNwYgxGjjxsAKvhj3BEHgzPPVhP0GAQwDAcZDB6zsMwGC1V4AIohhMyeOb+KqINBgG44YQMnrqn9P9fEgwGAbjhdevCMAyE4el7y////fsHVScRAG545eoADENBeNKuArIMBgG8hoMM/v33F6oOEgBOw0FFJyUGgwDc8HuvLv+/+fwsHP/68wNVJRkAACVxbk6iq4x6AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The QR Code Generator' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1db4aaa055c58e5c27d177e352a11ee7.jpg" xmlns="">0gehyszgpTUOSii_Q8wqCmg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XainFNx3Y0W89opzIRk4VA" Reference="uXvmRieWnUKzLrxYz_3DhA/2YD2w2Bl00-9R0ZPBMNWmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.the-qrcode-generator.com/qrcodes" CVScreenId="5a19139d-35cc-4090-9233-0ed80a02f8c2" CvTextArea="984, 590, 169, 18" CvTextArgument="Plain Text QR Code" CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="985, 589, 174, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' tag='P' /&gt;" Guid="3762daa6-8be0-4ace-83fd-04ff35ba7278" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The QR Code Generator' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ccfaffcae3acbb5207ac08364d71d194.jpg" xmlns="">0yB5shFAPyEiXbTSW96QEzQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

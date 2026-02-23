@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WeIzRs9u4UWfel3ymi6ZBw" Reference="uXvmRieWnUKzLrxYz_3DhA/vgWlPplEtUisOZC9dATvYA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.the-qrcode-generator.com/qrcodes/new" CVScreenId="8f57db8c-9776-43fe-802c-efc21c0fd72d" CvElementArea="1396, 773, 324, 58" CvTextArea="1535, 792, 46, 18" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1400, 776, 318, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Save' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-fullWidth css-a9ic6p' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Save' /&gt;" Guid="6592caca-68d9-4b2a-a1ec-4ff18c63458e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The QR Code Generator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8f57db8c-9776-43fe-802c-efc21c0fd72d" CvElementArea="1396, 773, 324, 58" CvTextArea="1535, 792, 46, 18" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1537, 791, 44, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Save' tag='SPAN' type='' class='MuiBox-root css-rrm59m' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Save' /&gt;" Guid="7376c047-426b-4af3-8114-e015198276f3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ffb7bedc7eaf484a0147d3ab3133494b.jpg" xmlns="">0IrPcnRoOxEm5g3pk71k9Xg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

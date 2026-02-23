@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xIQOZ3bs_EaR3_JkhxJIjg" Reference="uXvmRieWnUKzLrxYz_3DhA/KiBdVha4Gkaf7RPdJVcg5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.the-qrcode-generator.com/qrcodes/new" CVScreenId="b2a8592b-15ba-40a5-98e4-63b7326a64fd" CvElementArea="364, 586, 859, 157" CvType="InputBox" DesignTimeRectangle="383, 611, 822, 115" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id=':r99:' tag='TEXTAREA' /&gt;" Guid="c06d7b59-c3d1-44d0-923b-7bb3efa1d0f7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The QR Code Generator' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c5c4d6c3c8ca20c6a9e111abf5163f61.jpg" xmlns="">0bc1M9bksS0SP-cG5IBpysw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

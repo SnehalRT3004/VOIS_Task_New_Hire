@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="On7MoEfASUSuLwQ8M0ThJg" Reference="uXvmRieWnUKzLrxYz_3DhA/9iIsulE2Y0SUdA9CFgsi8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.the-qrcode-generator.com/qrcodes/new" CVScreenId="e9de8801-102f-48c5-8c6f-450bad2ad9d0" CvElementArea="995, 335, 31, 31" CvType="Icon" DesignTimeRectangle="1000, 340, 22, 22" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;svg&amp;gt;path' idx='7' tag='path' /&gt;" Guid="fe73b645-0657-4ea8-86f2-cb6b18457f67" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD/SURBVEhLzZZdDkUwFIQt28+LR1uwFkKC2AV7QIS33kwToqda6lZjknkQnfnSQ6jHHMk7XizLwvq+Z13X3TLWrut6rFBqB9V1zcIwZL7vGzmKIta2rdh6Ig4ahkEqMHVZlrRbEAdhBDT4xDoYB2HeNPTUVVVRBpcSFMcxS9NU6yRJpBxcFAXlqEEoulKWZVJuc57nwtrXQPDxmSlB/4xucxAEbJomPciW8UZrQXd2RI0M7UG3FoSgqZChPd8BORudLV+CnO0IQVMhQ3u+A3I2OlsWQLZ+fGcWPkHjOEoLbFj6qEJN0/AbdPFT00PLDoLmeTY6bqmMDhzdjhJAb+oHgOgeF3zhBM0AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The QR Code Generator' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e9de8801-102f-48c5-8c6f-450bad2ad9d0" CvTextArea="971, 376, 80, 17" CvTextArgument="Plain Text" CvType="Text" DesignTimeRectangle="958, 321, 107, 92" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Plain Text' aria-role='tab' tag='BUTTON' type='button' class='MuiButtonBase-root MuiTab-root MuiTab-labelIcon MuiTab-textColorPrimary css-1h9l521' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Plain Text' /&gt;" Guid="4b1e8bfd-6524-4529-a961-007b92a1b414" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="4" Y="3" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="7a6dacab1fc1d039838acfbaaaf05c75.jpg" xmlns="">0W6VvgdVrU0aU8dcbBEAzBQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

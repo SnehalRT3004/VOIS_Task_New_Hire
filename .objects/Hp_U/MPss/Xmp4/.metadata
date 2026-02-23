@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge The QR Code Generator (TQRCG) Create Fre",
+  "Type": "Screen",
+  "Id": "Xmp4eSbE3025GATnBEkxeA",
+  "Reference": "uXvmRieWnUKzLrxYz_3DhA/Xmp4eSbE3025GATnBEkxeA",
+  "ParentRef": "uXvmRieWnUKzLrxYz_3DhA/MPsskZXkb0CzqNOwc-8h9w",
+  "Created": "2026-02-21T10:30:29.9140089Z",
+  "Updated": "2026-02-21T10:30:29.9140089Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
