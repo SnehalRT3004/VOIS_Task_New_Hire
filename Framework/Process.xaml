@@ -266,7 +266,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:MultipleAssign>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="RPAChallenge form" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,2062.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InUiElement="[in_UiBrowser]" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="7ca47f4b-8b69-4ee0-877a-6d27de7e2b69" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="RPAChallenge form" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InUiElement="[in_UiBrowser]" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="7ca47f4b-8b69-4ee0-877a-6d27de7e2b69" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -472,7 +472,7 @@
         <InArgument x:TypeArguments="x:String" x:Key="strEmpName">[strEmpName]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="strEmpId">[strEmpId]</InArgument>
         <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="io_dtProcessedData">[io_dtProcessedData]</OutArgument>
+        <InOutArgument x:TypeArguments="sd:DataTable" x:Key="io_dtProcessedData">[io_dtProcessedData]</InOutArgument>
         <InArgument x:TypeArguments="x:String" x:Key="strEmpSalary">[strEmpSalary]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
